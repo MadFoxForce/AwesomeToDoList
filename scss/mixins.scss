@@ -1,0 +1,18 @@
+@import 'fonts.scss';
+
+@mixin bg {
+  background-image: $bg;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+@mixin start__button {
+  background: #eec55d;
+  color: #484848;
+  border-radius: 6px;
+  padding: 20px 60px;
+  font-family: CoquetteC;
+}
